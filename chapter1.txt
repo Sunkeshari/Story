@@ -1,0 +1,10 @@
+here i come for more command lines
+sunu~$cd Desktop
+sunu~$mkdir Story
+sunu~$ls
+Story           my_file.txt
+sunu~$touch chapter1.txt
+sunu~$open -a/Applications/Visual\ Studio\ Code.app  chapter1.txt
+sunu~$git init
+sunu~$ls -a
+sunu~$git status
