@@ -1,1 +1,10 @@
 we came to 3rd chapter today
+
+Branching and merging
+
+$git branch alien-plot
+$git branch
+  alien-plot
+* main
+$git checkout alien-plot
+Switched to branch 'alien-plot'

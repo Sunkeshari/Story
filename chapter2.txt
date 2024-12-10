@@ -27,8 +27,8 @@ sunu~$ git commit -m "Complete chapter2 and 3"
  create mode 100644 chapter3.txt
 sunu~$git log
 commit c7ddaf21b892143f9e81b4c2407e24772275ea99 (HEAD -> master)
-Author: Sunkeshari Deshar <desarleah@gmail.com>
-Date:   Sun Dec 8 00:37:15 2024 -0600
+
+
 
     Complete chapter2 and 3
 
