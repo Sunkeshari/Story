@@ -1,1 +1,41 @@
 we came to 3rd chapter today
+
+Branching and merging
+
+$git branch alien-plot
+$git branch
+  alien-plot
+* main
+$git checkout alien-plot
+Switched to branch 'alien-plot'
+sunu~$git add .
+sunu~$git commit -m "modify chapter 1, 2 and 3 to have alien theme"
+[alien-plot ced6156] modify chapter 1, 2 and 3 to have alien theme
+ 3 files changed, 13 insertions(+), 4 deletions(-)
+sunu~$git log
+commit ced615673e1943b453dce85d4c16b2fec8391b5f (HEAD -> alien-plot)
+Author: Sunkeshari Deshar <desarleah@gmail.com>
+Date:   Mon Dec 9 22:56:35 2024 -0600
+
+    modify chapter 1, 2 and 3 to have alien theme
+
+commit 8e02c924bd9c928189e0ac0d1a11e6389876f19c (origin/main, main)
+Author: Sunkeshari Deshar <desarleah@gmail.com>
+Date:   Sun Dec 8 20:14:16 2024 -0600
+
+    chapter 2 updates
+
+commit c7ddaf21b892143f9e81b4c2407e24772275ea99
+Author: Sunkeshari Deshar <desarleah@gmail.com>
+Date:   Sun Dec 8 00:37:15 2024 -0600
+
+    Complete chapter2 and 3
+
+commit 2e5fc0ebe5356c885a17068763724e8ca5a37e29
+Author: Sunkeshari Deshar <desarleah@gmail.com>
+Date:   Sun Dec 8 00:29:49 2024 -0600
+
+    Complete chapter1
+sunu~$git branch
+* alien-plot
+  main
